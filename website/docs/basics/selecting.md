@@ -105,6 +105,9 @@ the first `<p>` element in the document:
 ```js
 const $p = $('p:first');
 ```
+- To select elements with a script tag :
+
+````const $script = $('head > script')[0]````
 
 Have a look at
 [cheerio-select](https://github.com/cheeriojs/cheerio-select/blob/master/README.md),
